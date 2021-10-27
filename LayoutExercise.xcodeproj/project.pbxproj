@@ -13,6 +13,7 @@
 		62C1DF8C27287DD000D5D4A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C1DF8B27287DD000D5D4A2 /* Preview Assets.xcassets */; };
 		62C1DF942728830F00D5D4A2 /* SecondTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C1DF932728830F00D5D4A2 /* SecondTemplateView.swift */; };
 		62C1DF96272887F600D5D4A2 /* ThirdTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C1DF95272887F600D5D4A2 /* ThirdTemplateView.swift */; };
+		62DF8A07272A0FB400E45C34 /* FourthTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF8A06272A0FB400E45C34 /* FourthTemplateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		62C1DF8B27287DD000D5D4A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62C1DF932728830F00D5D4A2 /* SecondTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTemplateView.swift; sourceTree = "<group>"; };
 		62C1DF95272887F600D5D4A2 /* ThirdTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTemplateView.swift; sourceTree = "<group>"; };
+		62DF8A06272A0FB400E45C34 /* FourthTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTemplateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				62C1DF8627287DC800D5D4A2 /* ContentView.swift */,
 				62C1DF932728830F00D5D4A2 /* SecondTemplateView.swift */,
 				62C1DF95272887F600D5D4A2 /* ThirdTemplateView.swift */,
+				62DF8A06272A0FB400E45C34 /* FourthTemplateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DF8A07272A0FB400E45C34 /* FourthTemplateView.swift in Sources */,
 				62C1DF96272887F600D5D4A2 /* ThirdTemplateView.swift in Sources */,
 				62C1DF8727287DC800D5D4A2 /* ContentView.swift in Sources */,
 				62C1DF8527287DC800D5D4A2 /* LayoutExerciseApp.swift in Sources */,

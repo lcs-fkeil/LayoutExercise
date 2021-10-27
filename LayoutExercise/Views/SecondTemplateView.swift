@@ -24,13 +24,13 @@ struct SecondTemplateView: View {
                 
             }
             VStack{
-                AsyncImage(url: URL (string: "https://dummyimages.com/150x150"))
-                    .frame(width: 150, height: 150)
+                AsyncImage(url: URL (string: "https://dummyimages.com/180x150"))
+                    .frame(width: 180, height: 150)
                 HStack{
-                    AsyncImage(url: URL (string: "https://dummyimage.com/75x150"))
-                                    .frame(width: 75, height: 150)
-                    AsyncImage(url: URL (string: "https://dummyimage.com/75x150"))
-                                    .frame(width: 75, height: 150)
+                    AsyncImage(url: URL (string: "https://dummyimage.com/80x150"))
+                                    .frame(width: 80, height: 150)
+                    AsyncImage(url: URL (string: "https://dummyimage.com/80x150"))
+                                    .frame(width: 80, height: 150)
                 
                 }
                 Text("Praesent auctor pharetra mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sodales suscipit purus at hendrerit. Aliquam lobortis rutrum dolora. ")

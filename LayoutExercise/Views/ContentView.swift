@@ -14,8 +14,8 @@ struct ContentView: View {
             
             VStack {
                                    
-                AsyncImage(url: URL (string: "https://dummyimage.com/200x200"))
-                                       .frame(width: 200, height: 200)
+                AsyncImage(url: URL (string: "https://dummyimage.com/240x200"))
+                                       .frame(width: 240, height: 200)
                                    
                 HStack {
                                        
@@ -24,12 +24,12 @@ struct ContentView: View {
                                    }
                                }
             VStack{
-                       Text("Mauris mauris mauris, auctor cursus nisl eget, iaculis luctus nibh. Donec posuere sem ac tellus fermentum rutrum. Integer arcu nibh, semper in ex at, feugiat fermentum tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris tincidunt massa in orci ornare tincidunt. Cras eget pretium ligula. Sed tortor magna, ullamcorper id lobortis vel, tristique eget sem.")
-                       AsyncImage(url: URL (string: "https://dummyimage.com/100x200"))
-                           .frame(width: 100, height: 200)
+                       Text("Mauris mauris mauris, auctor cursus nisl eget, iaculis luctus nibh, semper in ex at, feugiat fermentum tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris tincidunt massa in orci ornare tincidunt. Cras eget pretium ligula. Sed tortor magna, ullamcorper id lobortis vel, tristique eget sem.")
+                       AsyncImage(url: URL (string: "https://dummyimage.com/150x200"))
+                           .frame(width: 150, height: 200)
                    }
             
-            .frame(width:100)
+            .frame(width:150)
             
         }
        
